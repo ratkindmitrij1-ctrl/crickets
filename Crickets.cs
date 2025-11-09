@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Destroy : MonoBehaviour
+public class Crickets : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        // Удаляет объект
-        Destroy(gameObject);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+      //Выводит постоянно crickets
+        print("crickets");
     }
 }
